@@ -397,3 +397,30 @@ if (signNum === 69) {
 //* output the result
 console.log(`Your sign is ${signNum} and result: ${checkNum}`);
 
+
+//! Differences between "==" and "==="
+
+//? "==" definition: "is loosely equal to"
+
+let leftNum = 4;
+let rightNum = "4";
+
+console.log(leftNum == rightNum);
+//true
+
+//? "===" definition: "STRICTLY equal to"
+
+console.log(leftNum === rightNum);
+//false
+
+let password = "undER28S@#fdd"
+let password2 = "under28s@#fdd"
+
+console.log(password === password2);
+
+//? "const" is reserved word (ex. let, var)
+//? what it means "const" - makes your information in a variable not changable;
+
+const myName = "Captain Sparrow";
+
+myName = "Captain Jack"; //---Can't change the name because of "const"
